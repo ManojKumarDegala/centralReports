@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="CentralReports.MultiStockTransfer.DataDriven"/>
+      <class name="CentralReports.MultiStockTransfer.OffersTest"/>
+      <class name="CentralReports.MultiStockTransfer.BaseClass"/>
+      <class name="CentralReports.MultiStockTransfer.ReadWriteExcel"/>
+      <class name="CentralReports.MultiStockTransfer.ReportsTest"/>
+      <class name="CentralReports.MultiStockTransfer.MultiStockTransfer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
